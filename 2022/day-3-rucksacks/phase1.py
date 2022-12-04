@@ -1,3 +1,5 @@
+# https://adventofcode.com/2022/day/3
+
 import string
 def convertLetterToPriority(letter):
     return string.ascii_letters.index(letter) + 1
